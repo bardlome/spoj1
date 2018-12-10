@@ -1,9 +1,11 @@
 import random
 #https://pl.spoj.com/problems/TROJEDNO/
 
-
-n=input("ile punktow?")
-
+try:
+	n=input("ile punktow? ")
+except NameError:
+	print "taaaak. dla wygody uznam, ze miales/as na mysli 5"
+	n=5
 
 wezly=[]
 czerwone=0
